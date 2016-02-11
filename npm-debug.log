@@ -1,0 +1,255 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/4.2.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'js-cookie',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of /Users/haris/Downloads/OrganGrinder-master/package.json
+5 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/babel-core/package.json
+6 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/babel-loader/package.json
+7 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/babel-preset-react/package.json
+8 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/flux/package.json
+9 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/jquery/package.json
+10 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie/package.json
+11 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/react/package.json
+12 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/react-addons/package.json
+13 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/react-addons-linked-state-mixin/package.json
+14 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/react-cookie/package.json
+15 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/react-dom/package.json
+16 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/react-flux/package.json
+17 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/react-rangeslider/package.json
+18 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/react-slider/package.json
+19 verbose installManyTop reading scoped package data from /Users/haris/Downloads/OrganGrinder-master/node_modules/webpack/package.json
+20 info package.json react-addons@0.9.0 No license field.
+21 verbose readDependencies loading dependencies from /Users/haris/Downloads/OrganGrinder-master/package.json
+22 verbose install js-cookie is installed as 2.1.0
+23 silly cache add args [ 'js-cookie', null ]
+24 verbose cache add spec js-cookie
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'js-cookie',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'js-cookie',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: '*',
+25 silly cache add   type: 'range' }
+26 silly addNamed js-cookie@*
+27 verbose addNamed "*" is a valid semver range for js-cookie
+28 silly addNameRange { name: 'js-cookie', range: '*', hasData: false }
+29 silly mapToRegistry name js-cookie
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/js-cookie
+33 verbose addNameRange registry:https://registry.npmjs.org/js-cookie not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/js-cookie
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 2:44:33 PM
+37 verbose request id 04746fa8dca6f8a5
+38 verbose etag "5NSUVN4YFAY0KZU7Z4A0HW6ZQ"
+39 http request GET https://registry.npmjs.org/js-cookie
+40 http 304 https://registry.npmjs.org/js-cookie
+41 verbose headers { date: 'Tue, 09 Feb 2016 22:44:35 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   etag: '"5NSUVN4YFAY0KZU7Z4A0HW6ZQ"',
+41 verbose headers   age: '283',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+41 verbose headers   'x-cache': 'HIT',
+41 verbose headers   'x-cache-hits': '1',
+41 verbose headers   'x-timer': 'S1455057875.050859,VS0,VE0',
+41 verbose headers   vary: 'Accept' }
+42 silly get cb [ 304,
+42 silly get   { date: 'Tue, 09 Feb 2016 22:44:35 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     etag: '"5NSUVN4YFAY0KZU7Z4A0HW6ZQ"',
+42 silly get     age: '283',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-sjc3127-SJC',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '1',
+42 silly get     'x-timer': 'S1455057875.050859,VS0,VE0',
+42 silly get     vary: 'Accept' } ]
+43 verbose etag https://registry.npmjs.org/js-cookie from cache
+44 verbose get saving js-cookie to /Users/haris/.npm/registry.npmjs.org/js-cookie/.cache.json
+45 silly addNameRange number 2 { name: 'js-cookie', range: '*', hasData: true }
+46 silly addNameRange versions [ 'js-cookie',
+46 silly addNameRange   [ '1.5.0',
+46 silly addNameRange     '1.5.1',
+46 silly addNameRange     '2.0.0-pre',
+46 silly addNameRange     '2.0.0',
+46 silly addNameRange     '2.1.0-pre',
+46 silly addNameRange     '2.0.1',
+46 silly addNameRange     '2.0.2',
+46 silly addNameRange     '2.0.3',
+46 silly addNameRange     '2.0.4',
+46 silly addNameRange     '2.1.0' ] ]
+47 silly addNamed js-cookie@2.1.0
+48 verbose addNamed "2.1.0" is a plain semver version for js-cookie
+49 silly cache afterAdd js-cookie@2.1.0
+50 verbose afterAdd /Users/haris/.npm/js-cookie/2.1.0/package/package.json not in flight; writing
+51 verbose afterAdd /Users/haris/.npm/js-cookie/2.1.0/package/package.json written
+52 silly install resolved [ { name: 'js-cookie',
+52 silly install resolved     version: '2.1.0',
+52 silly install resolved     description: 'A simple, lightweight JavaScript API for handling cookies',
+52 silly install resolved     main: 'src/js.cookie.js',
+52 silly install resolved     directories: { test: 'test' },
+52 silly install resolved     keywords:
+52 silly install resolved      [ 'jquery-plugin',
+52 silly install resolved        'cookie',
+52 silly install resolved        'cookies',
+52 silly install resolved        'browser',
+52 silly install resolved        'amd',
+52 silly install resolved        'commonjs',
+52 silly install resolved        'client',
+52 silly install resolved        'js-cookie',
+52 silly install resolved        'browserify' ],
+52 silly install resolved     scripts: { test: 'grunt test' },
+52 silly install resolved     repository: { type: 'git', url: 'git://github.com/js-cookie/js-cookie.git' },
+52 silly install resolved     author: { name: 'Klaus Hartl' },
+52 silly install resolved     license: 'MIT',
+52 silly install resolved     devDependencies:
+52 silly install resolved      { grunt: '0.4.5',
+52 silly install resolved        'grunt-compare-size': '0.4.0',
+52 silly install resolved        'grunt-contrib-connect': '0.10.1',
+52 silly install resolved        'grunt-contrib-jshint': '0.11.1',
+52 silly install resolved        'grunt-contrib-nodeunit': '0.4.1',
+52 silly install resolved        'grunt-contrib-qunit': '0.7.0',
+52 silly install resolved        'grunt-contrib-uglify': '0.9.1',
+52 silly install resolved        'grunt-contrib-watch': '0.6.1',
+52 silly install resolved        'grunt-jscs': '1.6.0',
+52 silly install resolved        'grunt-saucelabs': '8.6.0',
+52 silly install resolved        'gzip-js': '0.3.2',
+52 silly install resolved        qunitjs: '1.18.0',
+52 silly install resolved        requirejs: '2.1.17' },
+52 silly install resolved     gitHead: '3f2b5e6884407c54b391483f39ddcd4c70f9243c',
+52 silly install resolved     bugs: { url: 'https://github.com/js-cookie/js-cookie/issues' },
+52 silly install resolved     homepage: 'https://github.com/js-cookie/js-cookie',
+52 silly install resolved     _id: 'js-cookie@2.1.0',
+52 silly install resolved     _shasum: '479c20d0a0bb6cab81491f917788cd025d6452f0',
+52 silly install resolved     _from: 'js-cookie@*',
+52 silly install resolved     _npmVersion: '2.7.4',
+52 silly install resolved     _nodeVersion: '0.12.0',
+52 silly install resolved     _npmUser: { name: 'fagner', email: 'github@fagnermartins.com' },
+52 silly install resolved     maintainers: [ [Object], [Object] ],
+52 silly install resolved     dist:
+52 silly install resolved      { shasum: '479c20d0a0bb6cab81491f917788cd025d6452f0',
+52 silly install resolved        tarball: 'http://registry.npmjs.org/js-cookie/-/js-cookie-2.1.0.tgz' },
+52 silly install resolved     _resolved: 'https://registry.npmjs.org/js-cookie/-/js-cookie-2.1.0.tgz',
+52 silly install resolved     readme: 'ERROR: No README data found!' } ]
+53 info install js-cookie@2.1.0 into /Users/haris/Downloads/OrganGrinder-master
+54 info installOne js-cookie@2.1.0
+55 verbose installOne of js-cookie to /Users/haris/Downloads/OrganGrinder-master not in flight; installing
+56 verbose lock using /Users/haris/.npm/_locks/js-cookie-9ea7ace3b50d9e0e.lock for /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+57 silly install write writing js-cookie 2.1.0 to /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+58 verbose unbuild node_modules/js-cookie
+59 info preuninstall js-cookie@2.1.0
+60 info uninstall js-cookie@2.1.0
+61 verbose unbuild rmStuff js-cookie@2.1.0 from /Users/haris/Downloads/OrganGrinder-master/node_modules
+62 info postuninstall js-cookie@2.1.0
+63 silly gentlyRm /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie is being purged from base /Users/haris/Downloads/OrganGrinder-master
+64 verbose gentlyRm don't care about contents; nuking /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+65 silly vacuum-fs purging /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+66 silly vacuum-fs quitting because other entries in /Users/haris/Downloads/OrganGrinder-master/node_modules
+67 verbose tar unpack /Users/haris/.npm/js-cookie/2.1.0/package.tgz
+68 verbose tar unpacking to /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+69 silly gentlyRm /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie is being purged
+70 verbose gentlyRm don't care about contents; nuking /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+76 silly gunzTarPerm extractEntry README.md
+77 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+78 silly gunzTarPerm extractEntry Gruntfile.js
+79 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+80 silly gunzTarPerm extractEntry .tm_properties
+81 silly gunzTarPerm modified mode [ '.tm_properties', 438, 420 ]
+82 silly gunzTarPerm extractEntry .travis.yml
+83 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+84 silly gunzTarPerm extractEntry CONTRIBUTING.md
+85 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+86 silly gunzTarPerm extractEntry travis.sh
+87 silly gunzTarPerm modified mode [ 'travis.sh', 438, 420 ]
+88 silly gunzTarPerm extractEntry .jshintignore
+89 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+90 silly gunzTarPerm extractEntry .jshintrc
+91 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+92 silly gunzTarPerm extractEntry SERVER_SIDE.md
+93 silly gunzTarPerm modified mode [ 'SERVER_SIDE.md', 438, 420 ]
+94 silly gunzTarPerm extractEntry bower.json
+95 silly gunzTarPerm modified mode [ 'bower.json', 438, 420 ]
+96 silly gunzTarPerm extractEntry test/utils.js
+97 silly gunzTarPerm modified mode [ 'test/utils.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry test/tests.js
+99 silly gunzTarPerm modified mode [ 'test/tests.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry test/amd.js
+101 silly gunzTarPerm modified mode [ 'test/amd.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry test/commonjs.js
+103 silly gunzTarPerm modified mode [ 'test/commonjs.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry test/polyfill.js
+105 silly gunzTarPerm modified mode [ 'test/polyfill.js', 438, 420 ]
+106 silly gunzTarPerm extractEntry test/amd-config.js
+107 silly gunzTarPerm modified mode [ 'test/amd-config.js', 438, 420 ]
+108 silly gunzTarPerm extractEntry test/encoding.js
+109 silly gunzTarPerm modified mode [ 'test/encoding.js', 438, 420 ]
+110 silly gunzTarPerm extractEntry test/index.html
+111 silly gunzTarPerm modified mode [ 'test/index.html', 438, 420 ]
+112 silly gunzTarPerm extractEntry test/malformed_cookie.html
+113 silly gunzTarPerm modified mode [ 'test/malformed_cookie.html', 438, 420 ]
+114 silly gunzTarPerm extractEntry test/encoding.html
+115 silly gunzTarPerm modified mode [ 'test/encoding.html', 438, 420 ]
+116 silly gunzTarPerm extractEntry test/amd.html
+117 silly gunzTarPerm modified mode [ 'test/amd.html', 438, 420 ]
+118 silly gunzTarPerm extractEntry test/.jshintrc
+119 silly gunzTarPerm modified mode [ 'test/.jshintrc', 438, 420 ]
+120 silly gunzTarPerm extractEntry .project
+121 silly gunzTarPerm modified mode [ '.project', 438, 420 ]
+122 silly gunzTarPerm extractEntry src/js.cookie.js
+123 silly gunzTarPerm modified mode [ 'src/js.cookie.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry src/.jshintrc
+125 silly gunzTarPerm modified mode [ 'src/.jshintrc', 438, 420 ]
+126 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+127 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 438, 420 ]
+128 verbose write writing to /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie/package.json
+129 info preinstall js-cookie@2.1.0
+130 verbose readDependencies loading dependencies from /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie/package.json
+131 verbose readDependencies loading dependencies from /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie/package.json
+132 silly install resolved []
+133 verbose about to build /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+134 info build /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+135 info linkStuff js-cookie@2.1.0
+136 silly linkStuff js-cookie@2.1.0 has /Users/haris/Downloads/OrganGrinder-master/node_modules as its parent node_modules
+137 verbose linkBins js-cookie@2.1.0
+138 verbose linkMans js-cookie@2.1.0
+139 verbose rebuildBundles js-cookie@2.1.0
+140 info install js-cookie@2.1.0
+141 info postinstall js-cookie@2.1.0
+142 verbose unlock done using /Users/haris/.npm/_locks/js-cookie-9ea7ace3b50d9e0e.lock for /Users/haris/Downloads/OrganGrinder-master/node_modules/js-cookie
+143 verbose validateInstall loading /Users/haris/Downloads/OrganGrinder-master/package.json for validation
+144 verbose stack Error: The package react@0.14.6 does not satisfy its siblings' peerDependencies requirements!
+144 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+144 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+144 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+144 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+144 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+144 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+144 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+144 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+144 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+144 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+145 verbose cwd /Users/haris/Downloads/OrganGrinder-master
+146 error Darwin 14.3.0
+147 error argv "/usr/local/Cellar/node/4.2.1/bin/node" "/usr/local/bin/npm" "install" "js-cookie" "--save"
+148 error node v4.2.1
+149 error npm  v2.14.7
+150 error code EPEERINVALID
+151 error peerinvalid The package react@0.14.6 does not satisfy its siblings' peerDependencies requirements!
+151 error peerinvalid Peer react-dom@0.14.6 wants react@^0.14.6
+151 error peerinvalid Peer react-addons@0.9.0 wants react@>= 0.9.0
+151 error peerinvalid Peer react-addons-linked-state-mixin@0.14.7 wants react@^0.14.7
+151 error peerinvalid Peer react-slider@0.6.1 wants react@>=0.14
+152 verbose exit [ 1, true ]
